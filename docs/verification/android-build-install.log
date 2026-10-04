@@ -1,0 +1,239 @@
+> Task :alphavideo:kmpPartiallyResolvedDependenciesChecker
+> Task :alphavideo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :alphavideo:generateComposeResClass SKIPPED
+> Task :alphavideo:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForCommonMain SKIPPED
+> Task :alphavideo:transformCommonMainDependenciesMetadata
+> Task :alphavideo:compileCommonMainKotlinMetadata UP-TO-DATE
+> Task :alphavideo:generateProjectStructureMetadata UP-TO-DATE
+> Task :alphavideo:metadataCommonMainProcessResources NO-SOURCE
+> Task :alphavideo:metadataCommonMainClasses UP-TO-DATE
+> Task :alphavideo:allMetadataJar UP-TO-DATE
+> Task :alphavideo:androidPreBuild UP-TO-DATE
+> Task :alphavideo:preAndroidMainBuild UP-TO-DATE
+> Task :alphavideo:checkAndroidMainAarMetadata UP-TO-DATE
+> Task :alphavideo:buildAndroidDecoder UP-TO-DATE
+> Task :alphavideo:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :alphavideo:mergeAndroidMainNativeLibs UP-TO-DATE
+> Task :alphavideo:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :alphavideo:extractAndroidMainAnnotations UP-TO-DATE
+> Task :alphavideo:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :alphavideo:prepareAndroidMainArtProfile UP-TO-DATE
+> Task :alphavideo:prepareLintJarForPublish UP-TO-DATE
+> Task :alphavideo:processAndroidMainManifest UP-TO-DATE
+> Task :alphavideo:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForAndroidMain SKIPPED
+> Task :alphavideo:generateActualResourceCollectorsForAndroidMain SKIPPED
+> Task :alphavideo:compileAndroidMain UP-TO-DATE
+> Task :alphavideo:processAndroidMainJavaRes UP-TO-DATE
+> Task :alphavideo:mergeAndroidMainJavaResource UP-TO-DATE
+> Task :alphavideo:syncAndroidMainLibJars UP-TO-DATE
+> Task :alphavideo:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :alphavideo:bundleAndroidMainAar UP-TO-DATE
+> Task :alphavideo:assembleAndroidMain UP-TO-DATE
+> Task :alphavideo:commonizeNativeDistribution UP-TO-DATE
+> Task :alphavideo:convertXmlValueResourcesForNativeMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForNativeMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForNativeMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForNativeMain SKIPPED
+> Task :alphavideo:transformNativeMainDependenciesMetadata
+> Task :alphavideo:compileNativeMainKotlinMetadata NO-SOURCE
+> Task :alphavideo:convertXmlValueResourcesForAppleMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForAppleMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForAppleMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForAppleMain SKIPPED
+> Task :alphavideo:metadataNativeMainProcessResources NO-SOURCE
+> Task :alphavideo:metadataNativeMainClasses UP-TO-DATE
+> Task :alphavideo:transformAppleMainDependenciesMetadata
+> Task :alphavideo:compileAppleMainKotlinMetadata NO-SOURCE
+> Task :alphavideo:convertXmlValueResourcesForIosMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosMain SKIPPED
+> Task :alphavideo:metadataAppleMainProcessResources NO-SOURCE
+> Task :alphavideo:metadataAppleMainClasses UP-TO-DATE
+> Task :alphavideo:transformIosMainDependenciesMetadata
+
+> Task :alphavideo:compileIosMainKotlinMetadata
+w: KLIB loader: The same 'unique_name=lifecycle-viewmodel_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.9.6-commonMain-o5UeXw.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.lifecycle-lifecycle-viewmodel-2.9.4-commonMain-YZugNA.klib
+w: KLIB loader: The same 'unique_name=lifecycle-viewmodel-savedstate_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.9.6-commonMain-HvVjYQ.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.lifecycle-lifecycle-viewmodel-savedstate-2.9.4-commonMain-KTe1Gw.klib
+w: KLIB loader: The same 'unique_name=annotation_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.annotation-internal-annotation-1.10.0-commonMain-jG1XTg.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.annotation-annotation-1.9.1-commonMain-WmoUwA.klib
+w: KLIB loader: The same 'unique_name=collection_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.collection-internal-collection-1.10.0-commonMain-PdmhIQ.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.collection-collection-1.5.0-commonMain-j7f1lg.klib
+w: KLIB loader: The same 'unique_name=runtime_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-1.11.1-commonMain-XrlUVg.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.compose.runtime-runtime-1.11.2-commonMain-wNX9OQ.klib
+w: KLIB loader: The same 'unique_name=lifecycle-runtime-compose_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.9.6-commonMain-MM2pxQ.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.lifecycle-lifecycle-runtime-compose-2.9.4-commonMain-Jyns3Q.klib
+w: KLIB loader: The same 'unique_name=savedstate-compose_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.savedstate-savedstate-compose-1.4.0-commonMain-YfHBdg.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.savedstate-savedstate-compose-1.3.6-commonMain-Fw7d1w.klib
+w: KLIB loader: The same 'unique_name=runtime-saveable_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-saveable-1.11.1-commonMain-SLfCsg.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.compose.runtime-runtime-saveable-1.11.2-commonMain-z_Dmcw.klib
+w: KLIB loader: The same 'unique_name=lifecycle-common_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-common-2.9.6-commonMain-_EOCYQ.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.lifecycle-lifecycle-common-2.9.4-commonMain-2l5nFA.klib
+w: KLIB loader: The same 'unique_name=lifecycle-runtime_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.9.6-commonMain-WvMiUA.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.lifecycle-lifecycle-runtime-2.9.4-commonMain-IrcNlw.klib
+w: KLIB loader: The same 'unique_name=savedstate_commonMain' found in more than one library: <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/androidx.savedstate-savedstate-1.4.0-commonMain-JkDvJw.klib, <checkout>/alphavideo/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.savedstate-savedstate-1.3.6-commonMain-Gx5ULw.klib
+
+> Task :alphavideo:checkIosArm64MainComposeLibrariesCompatibility
+> Task :alphavideo:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :alphavideo:convertXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosArm64Main NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosArm64Main SKIPPED
+> Task :alphavideo:generateActualResourceCollectorsForIosArm64Main SKIPPED
+> Task :alphavideo:compileKotlinIosArm64
+> Task :alphavideo:checkIosSimulatorArm64MainComposeLibrariesCompatibility
+> Task :alphavideo:convertXmlValueResourcesForIosSimulatorArm64Main NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosSimulatorArm64Main NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosSimulatorArm64Main NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosSimulatorArm64Main SKIPPED
+> Task :alphavideo:generateActualResourceCollectorsForIosSimulatorArm64Main SKIPPED
+> Task :alphavideo:compileKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :alphavideo:checkIosArm64TestComposeLibrariesCompatibility
+> Task :alphavideo:convertXmlValueResourcesForAppleTest NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForAppleTest NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForAppleTest NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForAppleTest SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForCommonTest NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForCommonTest NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForCommonTest NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForCommonTest SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForIosArm64Test NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosArm64Test NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosArm64Test NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosArm64Test SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForIosTest NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosTest NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosTest NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosTest SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForNativeTest NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForNativeTest NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForNativeTest NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForNativeTest SKIPPED
+> Task :alphavideo:iosArm64ResolveResourcesFromDependencies UP-TO-DATE
+> Task :alphavideo:assembleIosArm64MainResources UP-TO-DATE
+> Task :alphavideo:iosArm64ResolveSelfResourcesCopyHierarchicalMultiplatformResources UP-TO-DATE
+> Task :alphavideo:iosArm64AggregateResources UP-TO-DATE
+> Task :alphavideo:iosArm64ProcessResources UP-TO-DATE
+> Task :alphavideo:iosArm64MainKlibrary
+> Task :alphavideo:compileTestKotlinIosArm64 NO-SOURCE
+> Task :alphavideo:checkIosSimulatorArm64TestComposeLibrariesCompatibility
+> Task :alphavideo:convertXmlValueResourcesForIosSimulatorArm64Test NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosSimulatorArm64Test NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosSimulatorArm64Test NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosSimulatorArm64Test SKIPPED
+> Task :alphavideo:iosSimulatorArm64ResolveResourcesFromDependencies UP-TO-DATE
+> Task :alphavideo:assembleIosSimulatorArm64MainResources UP-TO-DATE
+> Task :alphavideo:iosSimulatorArm64ResolveSelfResourcesCopyHierarchicalMultiplatformResources UP-TO-DATE
+> Task :alphavideo:iosSimulatorArm64AggregateResources UP-TO-DATE
+> Task :alphavideo:iosSimulatorArm64ProcessResources UP-TO-DATE
+> Task :alphavideo:iosSimulatorArm64MainKlibrary UP-TO-DATE
+> Task :alphavideo:compileTestKotlinIosSimulatorArm64 NO-SOURCE
+> Task :alphavideo:metadataIosMainProcessResources NO-SOURCE
+> Task :alphavideo:metadataIosMainClasses
+> Task :alphavideo:iosArm64MetadataElements
+> Task :alphavideo:iosSimulatorArm64MetadataElements
+> Task :alphavideo:assemble
+> Task :alphavideo:exportCrossCompilationMetadataForIosArm64ApiElements UP-TO-DATE
+> Task :demo:checkIosArm64MainComposeLibrariesCompatibility
+> Task :demo:kmpPartiallyResolvedDependenciesChecker
+> Task :demo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :demo:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :demo:convertXmlValueResourcesForAppleMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForAppleMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForAppleMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForAppleMain NO-SOURCE
+> Task :demo:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :demo:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :demo:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :demo:convertXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForIosArm64Main NO-SOURCE
+> Task :demo:generateResourceAccessorsForIosArm64Main NO-SOURCE
+> Task :demo:convertXmlValueResourcesForIosMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForIosMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForIosMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForIosMain NO-SOURCE
+> Task :demo:convertXmlValueResourcesForNativeMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForNativeMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForNativeMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForNativeMain NO-SOURCE
+> Task :demo:generateActualResourceCollectorsForIosArm64Main UP-TO-DATE
+> Task :demo:generateComposeResClass UP-TO-DATE
+> Task :demo:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :demo:compileKotlinIosArm64
+> Task :androidApp:preBuild UP-TO-DATE
+> Task :androidApp:preDebugBuild UP-TO-DATE
+> Task :androidApp:generateDebugResources UP-TO-DATE
+> Task :androidApp:packageDebugResources UP-TO-DATE
+> Task :demo:androidPreBuild UP-TO-DATE
+> Task :demo:preAndroidMainBuild UP-TO-DATE
+> Task :demo:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :androidApp:processDebugNavigationResources UP-TO-DATE
+> Task :androidApp:parseDebugLocalResources UP-TO-DATE
+> Task :androidApp:generateDebugRFile UP-TO-DATE
+> Task :alphavideo:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :demo:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :demo:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+> Task :demo:copyAndroidMainComposeResourcesToAndroidAssets UP-TO-DATE
+> Task :demo:packageAndroidMainResources UP-TO-DATE
+> Task :demo:parseAndroidMainLocalResources UP-TO-DATE
+> Task :demo:generateAndroidMainRFile UP-TO-DATE
+> Task :androidApp:javaPreCompileDebug UP-TO-DATE
+> Task :androidApp:generateDebugAssets UP-TO-DATE
+> Task :demo:generateAndroidMainAssets UP-TO-DATE
+> Task :demo:mergeAndroidMainAssets UP-TO-DATE
+> Task :androidApp:mergeDebugAssets UP-TO-DATE
+> Task :androidApp:compressDebugAssets UP-TO-DATE
+> Task :alphavideo:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :androidApp:desugarDebugFileDependencies UP-TO-DATE
+> Task :demo:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :androidApp:checkDebugAarMetadata UP-TO-DATE
+> Task :androidApp:compileDebugNavigationResources UP-TO-DATE
+> Task :androidApp:mapDebugSourceSetPaths UP-TO-DATE
+> Task :androidApp:mergeDebugResources UP-TO-DATE
+> Task :androidApp:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :androidApp:extractDeepLinksDebug UP-TO-DATE
+> Task :demo:processAndroidMainManifest UP-TO-DATE
+> Task :androidApp:processDebugMainManifest UP-TO-DATE
+> Task :androidApp:processDebugManifest UP-TO-DATE
+> Task :androidApp:processDebugManifestForPackage UP-TO-DATE
+> Task :demo:compileAndroidMainLibraryResources UP-TO-DATE
+> Task :androidApp:processDebugResources UP-TO-DATE
+> Task :androidApp:checkDebugDuplicateClasses UP-TO-DATE
+> Task :androidApp:mergeExtDexDebug UP-TO-DATE
+> Task :alphavideo:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :androidApp:mergeDebugJniLibFolders UP-TO-DATE
+> Task :demo:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :demo:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :demo:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :androidApp:mergeDebugNativeLibs UP-TO-DATE
+> Task :androidApp:stripDebugDebugSymbols UP-TO-DATE
+> Task :androidApp:validateSigningDebug UP-TO-DATE
+> Task :androidApp:writeDebugAppMetadata UP-TO-DATE
+> Task :androidApp:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :demo:compileAndroidMain
+> Task :demo:processAndroidMainJavaRes UP-TO-DATE
+> Task :demo:bundleAndroidMainClassesToCompileJar
+> Task :demo:bundleAndroidMainClassesToRuntimeJar
+> Task :androidApp:compileDebugKotlin UP-TO-DATE
+> Task :androidApp:compileDebugJavaWithJavac NO-SOURCE
+> Task :androidApp:dexBuilderDebug UP-TO-DATE
+> Task :androidApp:processDebugJavaRes UP-TO-DATE
+> Task :androidApp:mergeDebugJavaResource UP-TO-DATE
+> Task :androidApp:mergeProjectDexDebug UP-TO-DATE
+> Task :demo:bundleLibRuntimeToDirAndroidMain
+> Task :androidApp:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :androidApp:mergeLibDexDebug
+> Task :androidApp:packageDebug
+> Task :androidApp:createDebugApkListingFileRedirect UP-TO-DATE
+
+> Task :androidApp:installDebug
+Installing APK 'androidApp-debug.apk' on 'Pixel_7_API_36(AVD) - 16' for :androidApp:debug
+Installed on 1 device.
+
+BUILD SUCCESSFUL in 10s
+113 actionable tasks: 23 executed, 90 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html

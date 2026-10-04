@@ -1,0 +1,51 @@
+name: AlphaVideoDemo
+options:
+  bundleIdPrefix: dev.alphavideo
+  deploymentTarget:
+    iOS: '18.0'
+targets:
+  AlphaVideoDemo:
+    type: application
+    platform: iOS
+    sources: [Sources, Generated]
+    info:
+      path: Info.plist
+      properties:
+        CADisableMinimumFrameDurationOnPhone: true
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations: {}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.alphavideo.demo
+        PRODUCT_MODULE_NAME: AlphaVideoHost
+        SWIFT_VERSION: '6.0'
+        GENERATE_INFOPLIST_FILE: NO
+        FRAMEWORK_SEARCH_PATHS: '$(inherited) $(SRCROOT)/../demo/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)'
+        # Link the static Kotlin archive; a generated Swift fingerprint tracks its contents.
+        OTHER_LDFLAGS: '$(inherited) "$(SRCROOT)/../demo/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)/AlphaVideoDemo.framework/AlphaVideoDemo"'
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+    preBuildScripts:
+      - name: Build Kotlin framework
+        script: |
+          cd "$SRCROOT/.."
+          ./gradlew :demo:embedAndSignAppleFrameworkForXcode
+          FRAMEWORK="demo/build/xcode-frameworks/$CONFIGURATION/$SDK_NAME/AlphaVideoDemo.framework/AlphaVideoDemo"
+          HASH=$(shasum -a 256 "$FRAMEWORK" | cut -d ' ' -f 1)
+          FINGERPRINT="$SRCROOT/Generated/KotlinFrameworkFingerprint.swift"
+          printf '// Generated from the Kotlin static framework.\nenum KotlinFrameworkFingerprint { static let sha256 = "%s" }\n' "$HASH" > "$FINGERPRINT.tmp"
+          if ! cmp -s "$FINGERPRINT.tmp" "$FINGERPRINT"; then
+            mv "$FINGERPRINT.tmp" "$FINGERPRINT"
+          else
+            rm "$FINGERPRINT.tmp"
+          fi
+        basedOnDependencyAnalysis: false
+        outputFiles:
+          - '$(SRCROOT)/../demo/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)/AlphaVideoDemo.framework/AlphaVideoDemo'
+          - '$(SRCROOT)/Generated/KotlinFrameworkFingerprint.swift'
+schemes:
+  AlphaVideoDemo:
+    build:
+      targets:
+        AlphaVideoDemo: all

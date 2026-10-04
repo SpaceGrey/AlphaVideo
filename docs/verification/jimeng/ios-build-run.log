@@ -1,0 +1,14 @@
+⚙️  Generating plists...
+⚙️  Generating project...
+⚙️  Writing project...
+Created project at <checkout>/iosApp/AlphaVideoDemo.xcodeproj
+iOS simulator build and run succeeded for scheme AlphaVideoDemo from project <checkout>/iosApp/AlphaVideoDemo.xcodeproj targeting simulator UUID '<redacted-uuid>'.
+
+The app (dev.alphavideo.demo) is now running in the iOS Simulator.
+If you don't see the simulator window, it may be hidden behind other windows. The Simulator app should be open.
+
+Next steps:
+1. Capture structured logs (app continues running): xcodebuildmcp logging start-simulator-log-capture --simulator-id "<redacted-uuid>" --bundle-id "dev.alphavideo.demo"
+2. Stop app in simulator: xcodebuildmcp simulator stop --simulator-id "<redacted-uuid>" --bundle-id "dev.alphavideo.demo"
+3. Capture console + structured logs (app restarts): xcodebuildmcp logging start-simulator-log-capture --simulator-id "<redacted-uuid>" --bundle-id "dev.alphavideo.demo" --capture-console
+4. Launch app with logs in one step: xcodebuildmcp simulator launch-app-with-logs --simulator-id "<redacted-uuid>" --bundle-id "dev.alphavideo.demo"

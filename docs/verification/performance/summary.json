@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "windows": 4,
+    "columns_mean": {
+      "decoded_fps": 2.0043297425689013,
+      "drawn_unique_fps": 1.7764332288777933,
+      "output_mean_ms": 0.1073787861969322,
+      "copy_mean_ms": 484.9506515152329,
+      "bitmap_mean_ms": 0.5204053040043536,
+      "max_copy_ms": 491.54593751882203
+    }
+  },
+  "optimized": {
+    "windows": 4,
+    "columns_mean": {
+      "decoded_fps": 23.779959655869888,
+      "drawn_unique_fps": 23.77988888108124,
+      "output_mean_ms": 0.25674561418546604,
+      "copy_mean_ms": 0.8833754465076017,
+      "bitmap_mean_ms": 0.6393214625404631,
+      "max_copy_ms": 7.446041650837287
+    }
+  }
+}

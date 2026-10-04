@@ -1,0 +1,38 @@
+{
+  "frames_compared": 144,
+  "dimensions": [
+    1160,
+    798
+  ],
+  "alpha_mean_absolute_error": 0.0,
+  "alpha_max_absolute_error": 0,
+  "alpha_mismatched_pixels": 0,
+  "comparison_depth_bits": 8,
+  "source_bytes": 111239972,
+  "output_bytes": 2600781,
+  "reduction_percent": 97.66200858087235,
+  "output_sha256": "d5f39690f2ca95c80c47359a8bfe149de31b2af2156dc20244639a950691f3b2",
+  "sample_frames": [
+    {
+      "frame": 0,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 486459,
+      "semi_pixels": 66390
+    },
+    {
+      "frame": 72,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 475818,
+      "semi_pixels": 75662
+    },
+    {
+      "frame": 143,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 484308,
+      "semi_pixels": 66474
+    }
+  ]
+}

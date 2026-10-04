@@ -1,0 +1,9 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+native/build/
+alphavideo/src/androidMain/jniLibs/
+iosApp/AlphaVideoDemo.xcodeproj/
+iosApp/Generated/
+.DS_Store

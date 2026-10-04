@@ -1,0 +1,61 @@
+> Task :alphavideo:checkIosArm64MainComposeLibrariesCompatibility
+> Task :alphavideo:kmpPartiallyResolvedDependenciesChecker
+> Task :alphavideo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :alphavideo:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :alphavideo:convertXmlValueResourcesForAppleMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForAppleMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForAppleMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForAppleMain SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForCommonMain SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosArm64Main NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosArm64Main SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForIosMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForIosMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForIosMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForIosMain SKIPPED
+> Task :alphavideo:convertXmlValueResourcesForNativeMain NO-SOURCE
+> Task :alphavideo:copyNonXmlValueResourcesForNativeMain NO-SOURCE
+> Task :alphavideo:prepareComposeResourcesTaskForNativeMain NO-SOURCE
+> Task :alphavideo:generateResourceAccessorsForNativeMain SKIPPED
+> Task :alphavideo:generateActualResourceCollectorsForIosArm64Main SKIPPED
+> Task :alphavideo:generateComposeResClass SKIPPED
+> Task :alphavideo:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :alphavideo:compileKotlinIosArm64
+> Task :alphavideo:exportCrossCompilationMetadataForIosArm64ApiElements UP-TO-DATE
+> Task :demo:checkIosArm64MainComposeLibrariesCompatibility
+> Task :demo:kmpPartiallyResolvedDependenciesChecker
+> Task :demo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :demo:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :demo:convertXmlValueResourcesForAppleMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForAppleMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForAppleMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForAppleMain NO-SOURCE
+> Task :demo:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :demo:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :demo:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :demo:convertXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForIosArm64Main NO-SOURCE
+> Task :demo:generateResourceAccessorsForIosArm64Main NO-SOURCE
+> Task :demo:convertXmlValueResourcesForIosMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForIosMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForIosMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForIosMain NO-SOURCE
+> Task :demo:convertXmlValueResourcesForNativeMain NO-SOURCE
+> Task :demo:copyNonXmlValueResourcesForNativeMain NO-SOURCE
+> Task :demo:prepareComposeResourcesTaskForNativeMain NO-SOURCE
+> Task :demo:generateResourceAccessorsForNativeMain NO-SOURCE
+> Task :demo:generateActualResourceCollectorsForIosArm64Main UP-TO-DATE
+> Task :demo:generateComposeResClass UP-TO-DATE
+> Task :demo:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :demo:compileKotlinIosArm64
+
+BUILD SUCCESSFUL in 3s
+15 actionable tasks: 6 executed, 9 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html
