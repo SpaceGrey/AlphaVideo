@@ -1,5 +1,7 @@
 # AlphaVideo
 
+**简体中文** | [English](README.en.md)
+
 面向 Compose Multiplatform 的跨平台视频播放组件，为 Android 和 iOS 提供统一的播放 API，支持透明视频与界面内容叠加。
 
 ## 特性
